@@ -23,4 +23,4 @@ HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health || exit 1
 # 8. Comando de execução
 # IMPORTANTE: Verifique se o nome do arquivo é EXATAMENTE esse. 
 # Se o seu arquivo se chamar "app.py", mude abaixo.
-ENTRYPOINT ["streamlit", "run", "Poke_evo_buffs.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "poke_evo_buffs.py", "--server.port=8501", "--server.address=0.0.0.0"]
