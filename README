@@ -1,0 +1,21 @@
+# 🐉 Pokémon Evolution Analytics
+
+Dashboard interativo desenvolvido com **Python**, **Streamlit** e **Plotly** para analisar a matemática por trás da evolução dos Pokémon.
+
+## 📊 O Projeto
+Este projeto analisa dados de um banco SQLite (`pokemon_dw.db`) para responder perguntas como:
+- Quanto de status (BST) um Pokémon ganha ao evoluir?
+- Existe diferença de ganho entre o 1º e o 2º estágio?
+- Quais os métodos de evolução mais comuns?
+
+## 🛠️ Tecnologias
+- **Linguagem:** Python 3.9+
+- **Front-end:** Streamlit
+- **Visualização:** Plotly Express & Graph Objects
+- **Dados:** SQLite & Pandas
+
+## 🚀 Como rodar localmente
+
+Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repo.git](https://github.com/seu-usuario/seu-repo.git)
