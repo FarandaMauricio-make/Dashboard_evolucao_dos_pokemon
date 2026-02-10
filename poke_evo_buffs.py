@@ -23,7 +23,7 @@ st.set_page_config(
 @st.cache_data(ttl=3600) 
 def carregar_dados():
     # Caminho do banco de dados (ajuste de acordo com seu caminho local)
-    db_path = (r"G:\Meu Drive\Projetos\Poke_projeto\Pokemao\pokemon_dw.db")
+    db_path = ("pokemon_dw.db")
     conn = sqlite3.connect(db_path)
 
     # --- Tabela de Nomes ---
@@ -212,4 +212,5 @@ if links:
 # --- Rodapé ---
 with st.expander("🔎 Ver Tabela de Dados Completa"):
     st.markdown("Use esta tabela para conferir os dados brutos de qualquer Pokémon.")
+
     st.dataframe(df_familia[["name", "chain_id", "estagio", "BST", "delta_BST"]], use_container_width=True)
