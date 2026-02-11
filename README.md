@@ -35,3 +35,5 @@ Clone o repositório e instale as dependências:
 git clone https://github.com/seuusuario/poke-evo-buffs.git
 cd poke-evo-buffs
 pip install -r requirements.txt
+```
+Você pode acessar o Dashboard no seguinte endereço: [A Matemática da Evolução Pokémon](https://dashboard-evolucao-dos-pokemon.onrender.com)
